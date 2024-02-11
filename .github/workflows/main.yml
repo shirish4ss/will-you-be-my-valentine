@@ -13,7 +13,7 @@ jobs:
     deploy_matrix:
         strategy:
             matrix:
-                node-version: [18]
+                node-version: [20]
         runs-on: ubuntu-latest
         steps:
           - uses: actions/checkout@v3
