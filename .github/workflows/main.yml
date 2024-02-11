@@ -32,7 +32,7 @@ jobs:
           - name: Install dependencies
             run: pnpm install --no-frozen-lockfile
           - name: Build
-            run: pnpm --prod deploy
+            run: pnpm run build
           - name: Setup Pages
             uses: actions/configure-pages@v4
           - name: Upload artifact
